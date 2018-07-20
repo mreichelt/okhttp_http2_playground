@@ -5,4 +5,4 @@ jdk:
   - openjdk9
 
 script:
-  - ./gradlew check assemble
+  - ./gradlew check
