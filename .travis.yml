@@ -1,0 +1,8 @@
+language: java
+
+# use JDK 9 due to HTTP2 (for JDK 8 we need to manually add ALPN)
+jdk:
+  - openjdk9
+
+script:
+  - ./gradlew check assemble
